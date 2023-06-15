@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Meu Perfil</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #333;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      background-color: #4c0000;
+    }
+    
+    .profile-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #4c0000;
+      
+      
+      
+      text-align: center;
+    }
+    
+    .profile-image {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #800000;
+    }
+    
+    .profile-description {
+      margin-top: 20px;
+      text-align: left;
+    }
+    
+    .photo-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 10px;
+      margin-top: 20px;
+    }
+    h2{
+      text-align: center;
+    }
+    .photo {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+    
+    @media only screen and (max-width: 600px) {
+      .profile-container {
+        padding: 10px;
+      }
+      
+      .profile-image {
+        width: 150px;
+        height: 150px;
+      }
+      
+      .photo-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="profile-container">
+    <img class="profile-image" src="foto perfil.gif" alt="Minha Foto de Perfil">
+    <h1>Carlos</h1>
+    
+    <div class="profile-description">
+      <h2>-Sobre Mim-</h2>
+      <p>Olá! Meu nome é Carlos e sou um estudante de Engenharia da Computação na Unisal em Lorena. Tenho paixão por tecnologia e estou sempre em busca de conhecimentos para me aprimorar nessa área fascinante.</p>
+      <p>Desde que entrei na universidade, tenho me dedicado a aprender sobre programação, redes de computadores e desenvolvimento de software. Além disso, tenho explorado a inteligência artificial e estou encantado com as possibilidades que ela oferece para resolver problemas complexos.</p>
+      <p>Minhas habilidades técnicas incluem programação em várias linguagens, como Python, C++ e Java, e tenho experiência no desenvolvimento de projetos utilizando essas tecnologias. Além disso, sou um comunicador eficaz e gosto de trabalhar em equipe para alcançar objetivos comuns.</p>
+      <p>Fora dos estudos, adoro praticar esportes, especialmente futebol e corrida. Acredito que um estilo de vida saudável é essencial para o equilíbrio entre mente e corpo.</p>
+    </div>
+    
+    <h2>-Galeria de Fotos-</h2>
+    <div class="photo-grid">
+      <img class="photo" src="img-1.png" alt="Foto 1">
+      <img class="photo" src="img-1.png" alt="Foto 2">
+      <img class="photo" src="img-1.png" alt="Foto 3">
+    </div>
+  
